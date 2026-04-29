@@ -1,0 +1,86 @@
+filters:
+  seniority_keywords:
+    - "Experienced Hire"
+    - "Experienced Professional"
+    - "Senior Consultant"
+    - "Consultant"
+    - "Manager"
+    - "Associate Principal"
+    - "Principal"
+    - "Project Leader"
+    - "Case Team Leader"
+    - "Expert Associate"
+    - "Expert Project Leader"
+    - "Senior Manager"
+    - "Director"
+  exclusion_keywords:
+    - "Intern"
+    - "Associate Consultant"
+    - "Campus"
+    - "Entry Level"
+    - "Graduate"
+    - "Summer"
+    - "Co-op"
+    - "Analyst"
+
+firms:
+  - name: "McKinsey & Company"
+    ats: workday
+    tenant: mckinsey
+    wd_server: wd1
+    site: McKinsey_Careers
+
+  - name: "Bain & Company"
+    ats: workday
+    tenant: bain
+    wd_server: wd1
+    site: External_Career_Site
+
+  - name: "BCG"
+    ats: eightfold
+    base_url: "https://careers.bcg.com/api/apply/v2/jobs"
+    domain: bcg.com
+
+  - name: "Deloitte"
+    ats: workday
+    tenant: deloitte
+    wd_server: wd1
+    site: DeloitteUSCareers
+
+  - name: "EY"
+    ats: workday
+    tenant: eyglobal
+    wd_server: wd5
+    site: EY_External_Careers
+
+  - name: "PwC"
+    ats: workday
+    tenant: pwc
+    wd_server: wd3
+    site: US_Experienced_Careers
+
+  - name: "KPMG"
+    ats: workday
+    tenant: kpmg
+    wd_server: wd1
+    site: Careers
+
+  - name: "FTI Consulting"
+    ats: workday
+    tenant: fticonsulting
+    wd_server: wd1
+    site: FTI_Careers
+
+  - name: "LEK Consulting"
+    ats: greenhouse
+    slug: lek
+
+  - name: "Simon Kucher"
+    ats: greenhouse
+    slug: simonkucher
+    slug_alt: simon-kucher
+
+  - name: "Altman Solon"
+    ats: greenhouse
+    slug: altmansolon
+    slug_alt: altman-solon

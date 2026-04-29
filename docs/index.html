@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Consulting Job Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* ── DESIGN TOKENS ──────────────────────────────────── */
+:root {
+  --text-xs:   0.75rem;
+  --text-sm:   0.875rem;
+  --text-base: 1rem;
+  --text-lg:   1.125rem;
+  --text-xl:   1.25rem;
+  --text-2xl:  1.5rem;
+  --text-3xl:  1.875rem;
+  --text-4xl:  2.25rem;
+  --text-5xl:  3rem;
+  --text-6xl:  clamp(2.5rem, 5vw + 1rem, 4rem);
+
+  --space-1:  0.25rem;
+  --space-2:  0.5rem;
+  --space-3:  0.75rem;
+  --space-4:  1rem;
+  --space-6:  1.5rem;
+  --space-8:  2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-24: 6rem;
+  --space-32: 8rem;
+
+  --radius-sm:   4px;
+  --radius-md:   8px;
+  --radius-lg:   14px;
+  --radius-xl:   24px;
+  --radius-full: 9999px;
+
+  /* Light mode (default) */
+  --color-bg-base:     #F9F7F4;
+  --color-bg-surface:  #FFFFFF;
+  --color-bg-elevated: #F2F0EC;
+  --color-bg-subtle:   #E8E5E0;
+
+  --color-text-primary:   #1A1817;
+  --color-text-secondary: #57524E;
+  --color-text-muted:     #9E9892;
+
+  --color-accent:         #B8860B;
+  --color-accent-hover:   #9A6F09;
+  --color-accent-light:   #FDF3D8;
+  --color-accent-text:    #FFFFFF;
+
+  --color-border:         rgba(26, 24, 23, 0.10);
+  --color-border-strong:  rgba(26, 24, 23, 0.20);
+
+  --color-success: #15803d;
+  --color-warning: #b45309;
+  --color-error:   #b91c1c;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg-base:     #0C0B0A;
+    --color-bg-surface:  #141311;
+    --color-bg-elevated: #1C1A18;
+    --color-bg-subtle:   #252220;
+
+    --color-text-primary:   #F0EDE8;
+    --color-text-secondary: #7D7A76;
+    --color-text-muted:     #3E3C3A;
+
+    --color-accent:         #F2C14E;
+    --color-accent-hover:   #C49730;
+    --color-accent-light:   #2A2000;
+    --color-accent-text:    #1A1200;
+
+    --color-border:         rgba(240, 237, 232, 0.10);
+    --color-border-strong:  rgba(240, 237, 232, 0.32);
+
+    --color-success: #22c55e;
+    --color-warning: #f59e0b;
+    --color-error:   #ef4444;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ── RESET & BASE ───────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-size: var(--text-base);
+  line-height: 1.65;
+  color: var(--color-text-primary);
+  background: var(--color-bg-base);
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--color-accent); text-decoration: none; transition: color 150ms ease; }
+a:hover { color: var(--color-accent-hover); }
+
+/* ── HEADER ─────────────────────────────────────────── */
+.site-header {
+  background: var(--color-bg-surface);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--space-6) clamp(1.25rem, 5vw, 3.5rem);
+}
+.header-inner {
+  max-width: 1280px;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+}
+.site-title {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: var(--text-3xl);
+  color: var(--color-text-primary);
+  line-height: 1.1;
+}
+.site-title span { color: var(--color-accent); }
+.header-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+}
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  background: var(--color-accent);
+  color: var(--color-accent-text);
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: var(--text-sm);
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-full);
+}
+.last-updated {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* ── FILTER BAR ─────────────────────────────────────── */
+.filter-bar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--color-bg-elevated);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--space-4) clamp(1.25rem, 5vw, 3.5rem);
+}
+.filter-inner {
+  max-width: 1280px;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+}
+.search-input {
+  flex: 1 1 260px;
+  min-width: 200px;
+  padding: 0.625rem var(--space-4);
+  font-family: 'DM Sans', sans-serif;
+  font-size: var(--text-base);
+  color: var(--color-text-primary);
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  outline: none;
+  transition: border-color 150ms ease;
+}
+.search-input:focus { border-color: var(--color-accent); }
+.search-input::placeholder { color: var(--color-text-muted); }
+
+.firm-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+.pill {
+  appearance: none;
+  border: 1px solid var(--color-border-strong);
+  background: transparent;
+  color: var(--color-text-secondary);
+  font-family: 'DM Sans', sans-serif;
+  font-size: var(--text-sm);
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: all 150ms ease;
+  white-space: nowrap;
+}
+.pill:hover { border-color: var(--color-accent); color: var(--color-accent); }
+.pill.active {
+  background: var(--color-accent);
+  color: var(--color-accent-text);
+  border-color: var(--color-accent);
+}
+.btn-clear {
+  appearance: none;
+  background: transparent;
+  border: none;
+  color: var(--color-accent);
+  font-family: 'DM Sans', sans-serif;
+  font-size: var(--text-sm);
+  font-weight: 500;
+  cursor: pointer;
+  padding: var(--space-1) var(--space-2);
+  transition: color 150ms ease;
+}
+.btn-clear:hover { color: var(--color-accent-hover); text-decoration: underline; }
+
+/* ── MAIN CONTENT ───────────────────────────────────── */
+.main-content {
+  max-width: 1280px;
+  margin-inline: auto;
+  padding: var(--space-8) clamp(1.25rem, 5vw, 3.5rem) var(--space-16);
+}
+
+/* ── STATES ─────────────────────────────────────────── */
+.state-msg {
+  text-align: center;
+  padding: var(--space-16) var(--space-4);
+  color: var(--color-text-secondary);
+  font-size: var(--text-lg);
+}
+.state-msg .spinner {
+  width: 32px; height: 32px;
+  border: 3px solid var(--color-border);
+  border-top-color: var(--color-accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin: 0 auto var(--space-4);
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.btn-retry {
+  margin-top: var(--space-4);
+  padding: 0.625rem 1.5rem;
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: var(--text-sm);
+  color: var(--color-accent-text);
+  background: var(--color-accent);
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: background 150ms ease;
+}
+.btn-retry:hover { background: var(--color-accent-hover); }
+
+/* ── FIRM SECTIONS ──────────────────────────────────── */
+.firm-section { margin-bottom: var(--space-8); }
+.firm-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+  padding-bottom: var(--space-3);
+  border-bottom: 1px solid var(--color-border);
+}
+.firm-name {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: var(--text-2xl);
+  color: var(--color-text-primary);
+  line-height: 1.2;
+}
+.firm-count {
+  background: var(--color-accent-light);
+  color: var(--color-accent);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: var(--text-xs);
+  font-weight: 500;
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-full);
+}
+.firm-empty {
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+  padding: var(--space-4) 0;
+}
+
+/* ── JOB CARDS ──────────────────────────────────────── */
+.job-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: var(--space-4);
+}
+.job-card {
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+.job-card:hover {
+  transform: translateY(-3px);
+}
+@media (prefers-color-scheme: light) {
+  .job-card:hover {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+  }
+}
+.job-title {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: var(--text-xl);
+  line-height: 1.2;
+  margin-bottom: var(--space-2);
+}
+.job-title a {
+  color: var(--color-text-primary);
+  transition: color 150ms ease;
+}
+.job-title a:hover { color: var(--color-accent); }
+.job-location {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-3);
+}
+.job-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+.job-date {
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  font-family: 'JetBrains Mono', monospace;
+}
+.tag {
+  display: inline-block;
+  font-size: var(--text-xs);
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+  padding: 2px var(--space-2);
+  border-radius: var(--radius-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.tag-ats {
+  background: var(--color-bg-elevated);
+  color: var(--color-text-muted);
+}
+.tag-parthenon {
+  background: var(--color-accent-light);
+  color: var(--color-accent);
+}
+
+/* ── FOOTER ─────────────────────────────────────────── */
+.site-footer {
+  background: var(--color-bg-subtle);
+  border-top: 1px solid var(--color-border-strong);
+  padding: var(--space-8) clamp(1.25rem, 5vw, 3.5rem);
+  text-align: center;
+}
+.footer-inner {
+  max-width: 1280px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+.footer-inner p {
+  font-size: var(--text-sm);
+  color: var(--color-text-primary);
+}
+.footer-inner .phase2 {
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+/* ── RESPONSIVE ─────────────────────────────────────── */
+@media (max-width: 640px) {
+  .site-title { font-size: var(--text-2xl); }
+  .header-inner { flex-direction: column; align-items: flex-start; }
+  .job-grid { grid-template-columns: 1fr; }
+  .filter-inner { flex-direction: column; align-items: stretch; }
+  .firm-pills { justify-content: flex-start; }
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <h1 class="site-title">Consulting <span>Tracker</span></h1>
+    <div class="header-meta">
+      <span class="badge" id="total-badge" aria-label="Total active listings">--</span>
+      <span class="last-updated" id="last-updated">Loading...</span>
+    </div>
+  </div>
+</header>
+
+<div class="filter-bar" role="search" aria-label="Filter job listings">
+  <div class="filter-inner">
+    <input
+      type="text"
+      class="search-input"
+      id="search-input"
+      placeholder="Search by title, firm, or location..."
+      aria-label="Search job listings"
+    >
+    <div class="firm-pills" id="firm-pills" role="group" aria-label="Filter by firm"></div>
+    <button class="btn-clear" id="btn-clear" aria-label="Clear all filters">Clear filters</button>
+  </div>
+</div>
+
+<main class="main-content" id="main-content">
+  <div class="state-msg" id="loading-state">
+    <div class="spinner"></div>
+    <p>Loading job listings...</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p>Data refreshed twice daily via GitHub Actions</p>
+    <p><a href="https://github.com/baxterharrisbrown/consulting-experienced-hire" target="_blank" rel="noopener">View on GitHub</a></p>
+    <p class="phase2">Email alerts coming soon</p>
+  </div>
+</footer>
+
+<script>
+(function() {
+  const GITHUB_URL = 'https://raw.githubusercontent.com/baxterharrisbrown/consulting-experienced-hire/main/data/snapshot.json';
+  const LOCAL_URL = '../data/snapshot.json';
+  const isLocal = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
+  const DATA_URL = isLocal ? LOCAL_URL : GITHUB_URL;
+  const mainEl = document.getElementById('main-content');
+  const loadingEl = document.getElementById('loading-state');
+  const searchInput = document.getElementById('search-input');
+  const pillsContainer = document.getElementById('firm-pills');
+  const btnClear = document.getElementById('btn-clear');
+  const totalBadge = document.getElementById('total-badge');
+  const lastUpdated = document.getElementById('last-updated');
+
+  let allJobs = [];
+  let activeFirms = new Set();
+  let searchQuery = '';
+
+  function relativeTime(dateStr) {
+    try {
+      const date = new Date(dateStr);
+      if (isNaN(date)) return dateStr;
+      const now = new Date();
+      const diffMs = now - date;
+      const diffMin = Math.floor(diffMs / 60000);
+      if (diffMin < 1) return 'just now';
+      if (diffMin < 60) return diffMin + 'm ago';
+      const diffHr = Math.floor(diffMin / 60);
+      if (diffHr < 24) return diffHr + 'h ago';
+      const diffDay = Math.floor(diffHr / 24);
+      if (diffDay < 30) return diffDay + 'd ago';
+      const diffMo = Math.floor(diffDay / 30);
+      return diffMo + 'mo ago';
+    } catch { return dateStr; }
+  }
+
+  function humanDate(dateStr) {
+    try {
+      const d = new Date(dateStr);
+      if (isNaN(d)) return '';
+      return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit' });
+    } catch { return ''; }
+  }
+
+  function escapeHtml(str) {
+    const div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+  }
+
+  function getFilteredJobs() {
+    return allJobs.filter(job => {
+      if (activeFirms.size > 0 && !activeFirms.has(job.firm)) return false;
+      if (searchQuery) {
+        const q = searchQuery.toLowerCase();
+        const haystack = (job.title + ' ' + job.firm + ' ' + job.location).toLowerCase();
+        if (!haystack.includes(q)) return false;
+      }
+      return true;
+    });
+  }
+
+  function getFirmGroups(jobs) {
+    const groups = {};
+    jobs.forEach(j => {
+      if (!groups[j.firm]) groups[j.firm] = [];
+      groups[j.firm].push(j);
+    });
+    return Object.keys(groups).sort().map(firm => ({ firm, jobs: groups[firm] }));
+  }
+
+  function renderPills() {
+    const firms = [...new Set(allJobs.map(j => j.firm))].sort();
+    pillsContainer.innerHTML = firms.map(f => {
+      const active = activeFirms.has(f) ? ' active' : '';
+      return '<button class="pill' + active + '" data-firm="' + escapeHtml(f) + '" aria-pressed="' + (active ? 'true' : 'false') + '">' + escapeHtml(f) + '</button>';
+    }).join('');
+  }
+
+  function renderJobs() {
+    const filtered = getFilteredJobs();
+    totalBadge.textContent = filtered.length + ' listings';
+
+    if (filtered.length === 0) {
+      mainEl.innerHTML = '<div class="state-msg"><p>No listings match your search</p></div>';
+      return;
+    }
+
+    const groups = getFirmGroups(filtered);
+    let html = '';
+    groups.forEach(g => {
+      html += '<section class="firm-section">';
+      html += '<div class="firm-header"><h2 class="firm-name">' + escapeHtml(g.firm) + '</h2><span class="firm-count">' + g.jobs.length + '</span></div>';
+      html += '<div class="job-grid">';
+      g.jobs.forEach(job => {
+        html += '<article class="job-card">';
+        html += '<div class="job-title"><a href="' + escapeHtml(job.url) + '" target="_blank" rel="noopener">' + escapeHtml(job.title) + '</a></div>';
+        html += '<div class="job-location">' + escapeHtml(job.location || 'Location not specified') + '</div>';
+        html += '<div class="job-meta">';
+        html += '<span class="job-date">' + relativeTime(job.posted_date) + '</span>';
+        html += '<span class="tag tag-ats">' + escapeHtml(job.ats) + '</span>';
+        if (job.is_parthenon) html += '<span class="tag tag-parthenon">EY-Parthenon</span>';
+        html += '</div></article>';
+      });
+      html += '</div></section>';
+    });
+    mainEl.innerHTML = html;
+  }
+
+  function loadData() {
+    loadingEl && (loadingEl.style.display = '');
+    fetch(DATA_URL)
+      .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(data => {
+        allJobs = data;
+        if (allJobs.length > 0) {
+          const latest = allJobs.reduce((a, b) => (a.scraped_at || '') > (b.scraped_at || '') ? a : b);
+          lastUpdated.textContent = 'Updated ' + humanDate(latest.scraped_at);
+        }
+        renderPills();
+        renderJobs();
+      })
+      .catch(err => {
+        mainEl.innerHTML = '<div class="state-msg"><p>Failed to load job data.</p><button class="btn-retry" id="btn-retry">Retry</button></div>';
+        document.getElementById('btn-retry').addEventListener('click', loadData);
+      });
+  }
+
+  searchInput.addEventListener('input', function() {
+    searchQuery = this.value.trim();
+    renderJobs();
+  });
+
+  pillsContainer.addEventListener('click', function(e) {
+    const pill = e.target.closest('.pill');
+    if (!pill) return;
+    const firm = pill.dataset.firm;
+    if (activeFirms.has(firm)) activeFirms.delete(firm);
+    else activeFirms.add(firm);
+    renderPills();
+    renderJobs();
+  });
+
+  btnClear.addEventListener('click', function() {
+    searchQuery = '';
+    searchInput.value = '';
+    activeFirms.clear();
+    renderPills();
+    renderJobs();
+  });
+
+  loadData();
+})();
+</script>
+</body>
+</html>

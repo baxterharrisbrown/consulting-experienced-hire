@@ -1,0 +1,36 @@
+name: Scrape Consulting Jobs
+
+on:
+  schedule:
+    - cron: '0 13,22 * * *'   # 8 AM and 5 PM Central (UTC-5)
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python main.py
+
+      - name: Commit updated snapshot
+        run: |
+          git diff --quiet data/snapshot.json && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/snapshot.json
+          git commit -m "chore: update job snapshot [skip ci]"
+          git push
