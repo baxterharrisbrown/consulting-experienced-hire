@@ -1,5 +1,379 @@
 [
   {
+    "id": "725295WD",
+    "title": "Life, Annuity & Group Benefits Operations Consultant - Manager",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/Life--Annuity---Group-Benefits-Operations-Consultant---Manager_725295WD",
+    "location": "61 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "716302WD",
+    "title": "Financial Services Tax - Real Estate Director",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/Financial-Services-Tax---Real-Estate-Director_716302WD",
+    "location": "63 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "724908WD",
+    "title": "Financial Services Tax - Real Estate Manager",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/Financial-Services-Tax---Real-Estate-Manager_724908WD-2",
+    "location": "64 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "718802WD",
+    "title": "Epic Payer Platform Business Consultant, Manager",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/MA-Boston/Epic-Payer-Platform-Business-Consultant--Manager_718802WD",
+    "location": "41 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "719985WD",
+    "title": "Epic Payer Platform Business Consultant, Senior Associate",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/MA-Boston/Epic-Payer-Platform-Business-Consultant--Senior-Associate_719985WD",
+    "location": "41 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "705898WD",
+    "title": "Financial Services Tax - Real Estate Senior Manager",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/Financial-Services-Tax---Real-Estate-Senior-Manager_705898WD",
+    "location": "64 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "711572WD",
+    "title": "Payer Quality Consultant, Director",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/MA-Boston/Payer-Quality-Consultant--Director_711572WD-1",
+    "location": "41 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "733609WD",
+    "title": "Property & Casualty Insurance Claims Operations Consultant, Sr. Associate",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/Property---Casualty-Insurance-Claims-Operations-Consultant--Sr-Associate_733609WD",
+    "location": "57 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "722526WD",
+    "title": "Manufacturing Operations Consultant_Senior Associate",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/Operations-Consulting---Manufacturing-Excellence---Senior-Associate_722526WD",
+    "location": "21 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "713429WD",
+    "title": "Oracle CPQ Cloud Implementation Consultant - Senior Associate",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/TX-Dallas/Oracle-CPQ-Cloud-Implementation-Consultant---Senior-Associate_713429WD",
+    "location": "63 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "733597WD",
+    "title": "Property & Casualty Insurance Claims Operations Consultant, Manager",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/Property---Casualty-Insurance-Claims-Operations-Consultant--Manager_733597WD",
+    "location": "57 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "732655WD",
+    "title": "Utility Network GIS Consultant, Manager",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/TX-Houston/Utility-Network-GIS-Consultant--Manager_732655WD-1",
+    "location": "23 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "718792WD",
+    "title": "Utility Network GIS Consultant, Senior Associate",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/TX-Houston/Utility-Network-GIS-Consultant--Senior-Associate_718792WD",
+    "location": "61 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "725292WD",
+    "title": "Life, Annuity & Group Benefits Operations Consultant - Sr. Manager",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/Life--Annuity---Group-Benefits-Operations-Consultant---Sr-Manager_725292WD",
+    "location": "58 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "727764WD",
+    "title": "SAP BRIM Consultant, Director",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/SAP-BRIM-Consultant--Director_727764WD",
+    "location": "60 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "728547WD",
+    "title": "SAP BRIM Consultant, Manager",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/SAP-BRIM-Consultant--Manager_728547WD",
+    "location": "60 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "721577WD",
+    "title": "Salesforce Consulting Manager",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/IL-Chicago/Salesforce-Consulting-Manager_721577WD-1",
+    "location": "62 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "719926WD",
+    "title": "Asset & Wealth Management Tax Director",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/Asset---Wealth-Management-Tax-Director_719926WD",
+    "location": "27 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "721079WD",
+    "title": "Microsoft D365 CRM OR AI/CoPilot Functional Lead, Senior Manager",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/IL-Chicago/Microsoft-D365-CRM-OR-AI-CoPilot-Functional-Lead--Senior-Manager_721079WD",
+    "location": "55 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "710212WD",
+    "title": "Microsoft D365 ERP (F&O) + AI/Copilot Functional Consultant, Manager",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/Microsoft-D365-ERP--F-O----AI-Copilot-Functional-Consultant--Manager_710212WD",
+    "location": "62 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "724602WD",
+    "title": "Pharma Technology Consultant Senior Associate",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/Pharma-Technology-Consultant-Senior-Associate_724602WD-1",
+    "location": "64 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "695972WD",
+    "title": "Microsoft D365 ERP (F&O) AI/Copilot Functional Consultant - Senior Associate",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/IL-Chicago/Microsoft-D365-ERP-Supply-Chain-Management--SCM----Procure-To-Pay---Functional-Consultant---Senior-Associate_695972WD",
+    "location": "63 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "725262WD",
+    "title": "Oracle CX Implementation Consultant (Utilities) - Director",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/GA-Atlanta/Oracle-CX-Implementation-Consultant--Utilities----Director_725262WD-1",
+    "location": "66 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "720421WD",
+    "title": "Payer Back Office Strategy / Technology / Operations Consultant, Manager",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/MA-Boston/Payer-Office-Strategy---Technology---Operations-Consultant--Manager_720421WD",
+    "location": "41 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "719028WD",
+    "title": "NetSuite ARM Functional Consultant \u2013 Manager",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/OR-Portland/NetSuite-ARM-Functional-Consultant---Manager_719028WD",
+    "location": "61 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "708689WD",
+    "title": "Oracle Cloud Finance Consultant - Senior Manager",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/GA-Atlanta/Oracle-Cloud-Finance-Consultant---Senior-Manager_708689WD",
+    "location": "64 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "720422WD",
+    "title": "Payer Back Office Strategy / Technology / Operations Consultant, Senior Associate",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/MA-Boston/Payer-Back-Office-Strategy---Technology---Operations-Consultant--Senior-Associate_720422WD",
+    "location": "41 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "711574WD",
+    "title": "Payer Back Office Strategy / Technology / Operations Consultant, Senior Manager",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/MA-Boston/Payer-Back-Office-Strategy---Technology---Operations-Consultant--Senior-Manager_711574WD",
+    "location": "41 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "718473WD",
+    "title": "SAP BRIM Consultant, Senior Associate",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/GA-Atlanta/SAP-BRIM-Consultant--Senior-Associate_718473WD",
+    "location": "66 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "730740WD",
+    "title": "Digital Manufacturing Consultant, Senior Associate",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/Digital-Manufacturing-Consultant--Senior-Associate_730740WD",
+    "location": "21 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "725601WD",
+    "title": "Manufacturing QMS Consultant_Pharma/Life Sciences & Med Device_Director",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/Director-Manufacturing-Quality-Consultant--Life-Sciences_725601WD-1",
+    "location": "20 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "731479WD",
+    "title": "SAP Finance Consultant- Product Costing Manager",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/GA-Atlanta/SAP-Finance-Consultant--Product-Costing-Manager_731479WD",
+    "location": "61 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "707274WD",
+    "title": "TMT Supply Chain Operations Consultant, Director",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/TMT-Supply-Chain-Operations-Consultant--Director_707274WD",
+    "location": "18 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
+    "id": "737527WD",
+    "title": "Oracle Cloud Finance Consultant - Senior Manager",
+    "firm": "PwC",
+    "ats": "workday",
+    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/GA-Atlanta/Oracle-Cloud-Finance-Consultant---Senior-Manager_737527WD",
+    "location": "64 Locations",
+    "posted_date": "Posted Today",
+    "is_parthenon": false,
+    "scraped_at": "2026-06-17T23:42:15Z"
+  },
+  {
     "id": "737251WD",
     "title": "Financial Markets & Real Estate - Yardi Data Connect Senior Consultant",
     "firm": "PwC",
@@ -8,7 +382,7 @@
     "location": "NC-Raleigh",
     "posted_date": "Posted Today",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "736430WD",
@@ -19,18 +393,7 @@
     "location": "7 Locations",
     "posted_date": "Posted Today",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "725295WD",
-    "title": "Life, Annuity & Group Benefits Operations Consultant - Manager",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/Life--Annuity---Group-Benefits-Operations-Consultant---Manager_725295WD",
-    "location": "61 Locations",
-    "posted_date": "Posted Yesterday",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "726671WD",
@@ -41,29 +404,7 @@
     "location": "13 Locations",
     "posted_date": "Posted Yesterday",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "716302WD",
-    "title": "Financial Services Tax - Real Estate Director",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/Financial-Services-Tax---Real-Estate-Director_716302WD",
-    "location": "63 Locations",
-    "posted_date": "Posted Yesterday",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "724908WD",
-    "title": "Financial Services Tax - Real Estate Manager",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/Financial-Services-Tax---Real-Estate-Manager_724908WD-2",
-    "location": "64 Locations",
-    "posted_date": "Posted Yesterday",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "705899WD",
@@ -74,7 +415,7 @@
     "location": "4 Locations",
     "posted_date": "Posted Yesterday",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "727786WD",
@@ -85,7 +426,7 @@
     "location": "9 Locations",
     "posted_date": "Posted 2 Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "735895WD",
@@ -96,7 +437,7 @@
     "location": "9 Locations",
     "posted_date": "Posted 6 Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "727749WD",
@@ -107,7 +448,7 @@
     "location": "6 Locations",
     "posted_date": "Posted 7 Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "728205WD",
@@ -118,29 +459,7 @@
     "location": "13 Locations",
     "posted_date": "Posted 7 Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "705898WD",
-    "title": "Financial Services Tax - Real Estate Senior Manager",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/Financial-Services-Tax---Real-Estate-Senior-Manager_705898WD",
-    "location": "64 Locations",
-    "posted_date": "Posted 9 Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "733609WD",
-    "title": "Property & Casualty Insurance Claims Operations Consultant, Sr. Associate",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/Property---Casualty-Insurance-Claims-Operations-Consultant--Sr-Associate_733609WD",
-    "location": "57 Locations",
-    "posted_date": "Posted 9 Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "713744WD",
@@ -151,51 +470,7 @@
     "location": "5 Locations",
     "posted_date": "Posted 12 Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "718802WD",
-    "title": "Epic Payer Platform Business Consultant, Manager",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/MA-Boston/Epic-Payer-Platform-Business-Consultant--Manager_718802WD",
-    "location": "41 Locations",
-    "posted_date": "Posted 12 Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "719985WD",
-    "title": "Epic Payer Platform Business Consultant, Senior Associate",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/MA-Boston/Epic-Payer-Platform-Business-Consultant--Senior-Associate_719985WD",
-    "location": "41 Locations",
-    "posted_date": "Posted 12 Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "711572WD",
-    "title": "Payer Quality Consultant, Director",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/MA-Boston/Payer-Quality-Consultant--Director_711572WD-1",
-    "location": "41 Locations",
-    "posted_date": "Posted 12 Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "733597WD",
-    "title": "Property & Casualty Insurance Claims Operations Consultant, Manager",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/Property---Casualty-Insurance-Claims-Operations-Consultant--Manager_733597WD",
-    "location": "57 Locations",
-    "posted_date": "Posted 15 Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "721536WD",
@@ -206,7 +481,7 @@
     "location": "66 Locations",
     "posted_date": "Posted 15 Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "733327WD",
@@ -217,51 +492,7 @@
     "location": "48 Locations",
     "posted_date": "Posted 16 Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "713429WD",
-    "title": "Oracle CPQ Cloud Implementation Consultant - Senior Associate",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/TX-Dallas/Oracle-CPQ-Cloud-Implementation-Consultant---Senior-Associate_713429WD",
-    "location": "63 Locations",
-    "posted_date": "Posted 16 Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "722526WD",
-    "title": "Manufacturing Operations Consultant_Senior Associate",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/Operations-Consulting---Manufacturing-Excellence---Senior-Associate_722526WD",
-    "location": "21 Locations",
-    "posted_date": "Posted 19 Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "732655WD",
-    "title": "Utility Network GIS Consultant, Manager",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/TX-Houston/Utility-Network-GIS-Consultant--Manager_732655WD-1",
-    "location": "23 Locations",
-    "posted_date": "Posted 20 Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "718792WD",
-    "title": "Utility Network GIS Consultant, Senior Associate",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/TX-Houston/Utility-Network-GIS-Consultant--Senior-Associate_718792WD",
-    "location": "61 Locations",
-    "posted_date": "Posted 21 Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "724312WD",
@@ -272,7 +503,7 @@
     "location": "21 Locations",
     "posted_date": "Posted 21 Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "723605WD",
@@ -283,7 +514,7 @@
     "location": "21 Locations",
     "posted_date": "Posted 21 Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "730012WD",
@@ -294,7 +525,7 @@
     "location": "18 Locations",
     "posted_date": "Posted 21 Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "729555WD",
@@ -305,7 +536,7 @@
     "location": "21 Locations",
     "posted_date": "Posted 21 Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "729554WD",
@@ -316,29 +547,7 @@
     "location": "21 Locations",
     "posted_date": "Posted 21 Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "727764WD",
-    "title": "SAP BRIM Consultant, Director",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/SAP-BRIM-Consultant--Director_727764WD",
-    "location": "60 Locations",
-    "posted_date": "Posted 21 Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "728547WD",
-    "title": "SAP BRIM Consultant, Manager",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/SAP-BRIM-Consultant--Manager_728547WD",
-    "location": "60 Locations",
-    "posted_date": "Posted 21 Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "726022WD",
@@ -349,18 +558,7 @@
     "location": "13 Locations",
     "posted_date": "Posted 21 Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "721577WD",
-    "title": "Salesforce Consulting Manager",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/IL-Chicago/Salesforce-Consulting-Manager_721577WD-1",
-    "location": "62 Locations",
-    "posted_date": "Posted 21 Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "721600WD",
@@ -371,18 +569,7 @@
     "location": "52 Locations",
     "posted_date": "Posted 21 Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "719926WD",
-    "title": "Asset & Wealth Management Tax Director",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/Asset---Wealth-Management-Tax-Director_719926WD",
-    "location": "27 Locations",
-    "posted_date": "Posted 21 Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "724897WD",
@@ -393,62 +580,7 @@
     "location": "12 Locations",
     "posted_date": "Posted 21 Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "725292WD",
-    "title": "Life, Annuity & Group Benefits Operations Consultant - Sr. Manager",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/Life--Annuity---Group-Benefits-Operations-Consultant---Sr-Manager_725292WD",
-    "location": "58 Locations",
-    "posted_date": "Posted 21 Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "725262WD",
-    "title": "Oracle CX Implementation Consultant (Utilities) - Director",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/GA-Atlanta/Oracle-CX-Implementation-Consultant--Utilities----Director_725262WD-1",
-    "location": "66 Locations",
-    "posted_date": "Posted 21 Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "724602WD",
-    "title": "Pharma Technology Consultant Senior Associate",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/Pharma-Technology-Consultant-Senior-Associate_724602WD-1",
-    "location": "64 Locations",
-    "posted_date": "Posted 21 Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "719028WD",
-    "title": "NetSuite ARM Functional Consultant \u2013 Manager",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/OR-Portland/NetSuite-ARM-Functional-Consultant---Manager_719028WD",
-    "location": "61 Locations",
-    "posted_date": "Posted 21 Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "720421WD",
-    "title": "Payer Back Office Strategy / Technology / Operations Consultant, Manager",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/MA-Boston/Payer-Office-Strategy---Technology---Operations-Consultant--Manager_720421WD",
-    "location": "41 Locations",
-    "posted_date": "Posted 21 Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "712322WD",
@@ -459,40 +591,7 @@
     "location": "21 Locations",
     "posted_date": "Posted 21 Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "721079WD",
-    "title": "Microsoft D365 CRM OR AI/CoPilot Functional Lead, Senior Manager",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/IL-Chicago/Microsoft-D365-CRM-OR-AI-CoPilot-Functional-Lead--Senior-Manager_721079WD",
-    "location": "55 Locations",
-    "posted_date": "Posted 21 Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "720422WD",
-    "title": "Payer Back Office Strategy / Technology / Operations Consultant, Senior Associate",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/MA-Boston/Payer-Back-Office-Strategy---Technology---Operations-Consultant--Senior-Associate_720422WD",
-    "location": "41 Locations",
-    "posted_date": "Posted 21 Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "711574WD",
-    "title": "Payer Back Office Strategy / Technology / Operations Consultant, Senior Manager",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/MA-Boston/Payer-Back-Office-Strategy---Technology---Operations-Consultant--Senior-Manager_711574WD",
-    "location": "41 Locations",
-    "posted_date": "Posted 21 Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "719008WD",
@@ -503,40 +602,7 @@
     "location": "16 Locations",
     "posted_date": "Posted 21 Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "718473WD",
-    "title": "SAP BRIM Consultant, Senior Associate",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/GA-Atlanta/SAP-BRIM-Consultant--Senior-Associate_718473WD",
-    "location": "66 Locations",
-    "posted_date": "Posted 21 Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "710212WD",
-    "title": "Microsoft D365 ERP (F&O) + AI/Copilot Functional Consultant, Manager",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/Microsoft-D365-ERP--F-O----AI-Copilot-Functional-Consultant--Manager_710212WD",
-    "location": "62 Locations",
-    "posted_date": "Posted 21 Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "708689WD",
-    "title": "Oracle Cloud Finance Consultant - Senior Manager",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/GA-Atlanta/Oracle-Cloud-Finance-Consultant---Senior-Manager_708689WD",
-    "location": "64 Locations",
-    "posted_date": "Posted 21 Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "710793WD",
@@ -547,18 +613,7 @@
     "location": "48 Locations",
     "posted_date": "Posted 21 Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "695972WD",
-    "title": "Microsoft D365 ERP (F&O) AI/Copilot Functional Consultant - Senior Associate",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/IL-Chicago/Microsoft-D365-ERP-Supply-Chain-Management--SCM----Procure-To-Pay---Functional-Consultant---Senior-Associate_695972WD",
-    "location": "63 Locations",
-    "posted_date": "Posted 21 Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "710390WD",
@@ -569,7 +624,7 @@
     "location": "12 Locations",
     "posted_date": "Posted 21 Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "700531WD",
@@ -580,29 +635,7 @@
     "location": "10 Locations",
     "posted_date": "Posted 21 Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "731479WD",
-    "title": "SAP Finance Consultant- Product Costing Manager",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/GA-Atlanta/SAP-Finance-Consultant--Product-Costing-Manager_731479WD",
-    "location": "61 Locations",
-    "posted_date": "Posted 26 Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "730740WD",
-    "title": "Digital Manufacturing Consultant, Senior Associate",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/Digital-Manufacturing-Consultant--Senior-Associate_730740WD",
-    "location": "21 Locations",
-    "posted_date": "Posted 28 Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "728574WD",
@@ -613,7 +646,7 @@
     "location": "6 Locations",
     "posted_date": "Posted 28 Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "727514WD",
@@ -624,7 +657,7 @@
     "location": "2 Locations",
     "posted_date": "Posted 30+ Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "727504WD",
@@ -635,7 +668,7 @@
     "location": "2 Locations",
     "posted_date": "Posted 30+ Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "727784WD",
@@ -646,7 +679,7 @@
     "location": "9 Locations",
     "posted_date": "Posted 30+ Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "724562WD",
@@ -657,7 +690,7 @@
     "location": "3 Locations",
     "posted_date": "Posted 30+ Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "725614WD",
@@ -668,7 +701,7 @@
     "location": "7 Locations",
     "posted_date": "Posted 30+ Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "725612WD",
@@ -679,18 +712,7 @@
     "location": "13 Locations",
     "posted_date": "Posted 30+ Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "725601WD",
-    "title": "Manufacturing QMS Consultant_Pharma/Life Sciences & Med Device_Director",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/Director-Manufacturing-Quality-Consultant--Life-Sciences_725601WD-1",
-    "location": "20 Locations",
-    "posted_date": "Posted 30+ Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "706889WD",
@@ -701,7 +723,7 @@
     "location": "9 Locations",
     "posted_date": "Posted 30+ Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "705893WD",
@@ -712,7 +734,7 @@
     "location": "4 Locations",
     "posted_date": "Posted 30+ Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "722449WD",
@@ -723,7 +745,7 @@
     "location": "7 Locations",
     "posted_date": "Posted 30+ Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "695358WD",
@@ -734,7 +756,7 @@
     "location": "14 Locations",
     "posted_date": "Posted 30+ Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "719286WD",
@@ -745,7 +767,7 @@
     "location": "10 Locations",
     "posted_date": "Posted 30+ Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "720424WD",
@@ -756,7 +778,7 @@
     "location": "9 Locations",
     "posted_date": "Posted 30+ Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "720423WD",
@@ -767,7 +789,7 @@
     "location": "9 Locations",
     "posted_date": "Posted 30+ Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "679636WD",
@@ -778,7 +800,7 @@
     "location": "3 Locations",
     "posted_date": "Posted 30+ Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "718530WD",
@@ -789,7 +811,7 @@
     "location": "11 Locations",
     "posted_date": "Posted 30+ Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "709126WD",
@@ -800,18 +822,7 @@
     "location": "IL-Chicago",
     "posted_date": "Posted 30+ Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
-  },
-  {
-    "id": "707274WD",
-    "title": "TMT Supply Chain Operations Consultant, Director",
-    "firm": "PwC",
-    "ats": "workday",
-    "url": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Experienced_Careers/job/NY-New-York/TMT-Supply-Chain-Operations-Consultant--Director_707274WD",
-    "location": "18 Locations",
-    "posted_date": "Posted 30+ Days Ago",
-    "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "703273WD",
@@ -822,7 +833,7 @@
     "location": "3 Locations",
     "posted_date": "Posted 30+ Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   },
   {
     "id": "653495WD",
@@ -833,6 +844,6 @@
     "location": "23 Locations",
     "posted_date": "Posted 30+ Days Ago",
     "is_parthenon": false,
-    "scraped_at": "2026-06-17T16:39:57Z"
+    "scraped_at": "2026-06-17T23:42:15Z"
   }
 ]
